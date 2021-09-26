@@ -2,3 +2,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-gray-200 justify-center mt-32;
+}
+
+.header {
+  @apply text-4xl font-semibold text-gray-800 text-center;
+}
+
+.balance {
+  @apply items-center text-center mt-4;
+}
+.balance h4 {
+  @apply text-xl font-thin;
+}
+
+.balance h1 {
+  @apply text-3xl font-semibold;
+}
+
+.ie-container {
+  @apply text-center p-4 mt-4 mr-14 ml-14;
+}
+
+.expense {
+  @apply border-gray-200 border-2 p-4 bg-white shadow-xl;
+}
+
+.income {
+  @apply border-gray-200 border-2 p-4 bg-white shadow-xl;
+}
+
+.expense h1{
+  @apply text-xl font-thin;
+}
+
+.expense h2{
+  @apply text-xl font-medium text-red-500;
+}
+
+.income h1{
+  @apply text-xl font-thin;
+}
+
+.income h2{
+  @apply text-xl font-medium text-green-500;
+}
+
+.history {
+  @apply flex flex-col justify-center mt-4 mb-0 m-14;
+}
+
+.history-card {
+  @apply flex flex-row items-center justify-between  shadow-xl p-4 bg-white mt-2;
+}
+
+.green-card {
+  @apply border-r-4 border-green-400 rounded-r-md;
+}
+ .transaction {
+   @apply flex flex-col gap-2 m-14;
+ }
+
+ .transaction label {
+   @apply text-xl font-normal;
+ }
+
+ .transaction input {
+   @apply p-4 rounded-md;
+ }
