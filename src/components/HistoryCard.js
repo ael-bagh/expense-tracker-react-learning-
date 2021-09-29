@@ -1,8 +1,8 @@
-const HistoryCard = () => {
+const HistoryCard = ({transaction}) => {
     return (
         <div className='history-card green-card'>
-            <div>Cash</div>
-            <div>+500$</div>
+            <div>{transaction.text}</div>
+            <div>{transaction.amount}</div>
         </div>
     )
 }
