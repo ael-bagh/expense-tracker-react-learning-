@@ -11,9 +11,6 @@ const History = () => {
                 History
             </h1>
             { transactions.map(transaction => (<HistoryCard transaction={transaction} />))}
-            {/* <HistoryCard />
-            <HistoryCard />
-            <HistoryCard /> */}
         </div>
     )
 }
